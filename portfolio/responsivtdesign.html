@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivt design</title>
+    <link rel="stylesheet" href="endstylesheet.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="temaerforside.html">Temaer</a></li>
+                <li><a href="kodningforside.html">Kodning</a></li>
+                <li><a href="kommunikationforside.html">Kommunikation </a></li>
+                <li><a href="designforside.html">Design </a></li>   
+            </ul>
+        </nav>
+    </header>
+    <div id="gridcontainer">
+        <!-- designres start-->
+            <section id="designres">
+                <h1>Responsivitet</h1>
+                        <p>Når man starter med at tænke på Responsivitet skal man huske på at enheder har forskellige skærmstørrelser, og forskellige opløsninger. </p>
+                        <p>Der er 4 overordnede tilgange.</p>
+                        <p>1. Statisk (static, fixed witdth). </p>
+                        <p>Ved statisk webdesign baseres layoutet på faste mål (fixed width)</p>
+                        <p>Ændres ikke ved forskellige skærmstørrelser.</p>
+                        <p>Ekstra plads på skærmen bliver til “luft” i siderne.</p>
+                        <p>Fungerer som regel dårligt på andre skærmstørrelser end den tiltænkte.</p>
+                        <!-- Her er et billede der viser om statisk layout-->
+                            <img id="statisk" src="statisk.jpg" alt="statisk" class="responsive4">
+                        <p>2. flydende (fluid, liquid, flydende, elastisk).</p> 
+                        <p>Ved fluid Webdign tilpasser elementer sig bredden.</p>
+                        <p>Angiver bredder relativt, typisk i procent.</p>
+                        <p>Udnytter pladsen bedre.</p>
+                        <!-- Her er et billede der viser om statisk layout-->
+                            <img id="liquid" src="liquid.jpg" alt="liquid" class="responsive5">
+                        <p>3. Adaptiv (adaptive, ADW).</p> <br>
+                        <!-- Her er et billede der viser om statisk layout-->
+                            <img id="adaptiv" src="adaptiv.jpg" alt="adaptiv" class="responsive7">
+                        <p>4. Responsiv (responsive, RWD)</p> 
+                        <p>responsive layout Består typisk af et fluid layout.</p>
+                        <p>Ikke specielt vanskeligt.</p>
+                        <p>Tankegangen er MOBILE FIRST</p>
+                        <!-- Her er et billede der viser om statisk layout-->
+                            <img id="responsiv" src="responsiv.jpg" alt="responsiv" class="responsive6">  
+            </section>
+        <!-- designres Slut-->
+
+        
+<hr>
+
+        <!-- gridsys start-->
+            <section id="gridsys">
+                <h1> Grid system</h1>
+                    <p>Et grid er lavet til bedre at kunne holde orden og styr på hvor man vil placere ting.</p>
+                    <p>Man angiver Grid-template-columns og Grid-template-rows. så kan man putte forskellige elementer ind i disse bredder og højder.</p>
+                    <p>Et grid oprettes ved at definere en container-element som “grid” - men det påvirker ikke layoutet.</p>
+                    <p>Enheden “fr” betyder fractions, altså dele som vidst på billedet under.</p>
+        <!-- Her har vi et grid billede der viser det jeg har skrevet om ovenover-->            
+            <img id="grid1" src="grid1.jpg" alt="grid1" class="responsive3">
+            </section>
+</body>
+</html>
