@@ -28,14 +28,22 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 
 /*  END RESET */
+
 body{
   background-color:#8A8FA8;
   color: white;
-}h1{
+}
+h1{
   font-size: 40px;
   text-align: center;
   color: black;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+  color: black;
 }
 .nav {
     overflow: hidden;
@@ -154,7 +162,14 @@ text-align: center;
     margin-top: 1em;
     padding-bottom: 20px;
     width: 40%;
-    border-radius: 4%;
+}
+#sheet{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 40%;
 }
 #første{
   display: block;
@@ -163,7 +178,6 @@ text-align: center;
     margin-top: 1em;
     padding-bottom: 20px;
     width: 40%;
-    border-radius: 4%;
 }
 #immaterielret{
   font-size: 25px;
@@ -192,7 +206,6 @@ text-align: center;
     margin-top: 1em;
     padding-bottom: 20px;
     width: 40%;
-    border-radius: 4%;
 }
 #liquid{
   display: block;
@@ -212,8 +225,7 @@ text-align: center;
 }
 p{
   text-align: center;
-  padding-bottom: 30px;
-  margin:15px;
+  margin:30px;
   text-align: justify;
   text-align-last:auto;
 }
@@ -250,3 +262,20 @@ a{
   color: white;
   text-decoration: lightgrey;
 }
+/* TABLET VERSION START */
+@media screen and (min-width: 769px){
+body { 
+  background-color: #04AA6D;
+}
+h1{
+  font-size: 70px;
+}
+p{
+  font-size: 60px;
+}
+
+/* DESKTOP VERSION START*/
+@media screen and (min-width: 1100px) {
+  body{
+    background-color: #6C7393;
+  }
