@@ -13,3 +13,5 @@ Der er kommet lidt mere på siden nu, men stadig lang vej. jeg har kodet halvdel
 
 Jeg er nu gået igang med min tablet version, da min mobile version er designet færdig i css og det er det samme på resten af siderne.
 Jeg har skiftet farven på siderne, når den skifter fra mobile til tablet og til desktop.
+
+Jeg har problemer med mit responsive design iforhold til nav bar.
