@@ -33,29 +33,9 @@ body{
   background-color:#8A8FA8;
   color: white;
 }
-h1{
-  font-size: 40px;
-  text-align: center;
-  color: black;
-  margin-bottom: 60px;
-  padding-top: 20px;
-}
-#font{
-  margin-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  font-size: 60px;
-}
-
-h2{
-  font-size: 30px;
-  text-align: center;
-  color: black;
-}
 .nav {
     overflow: hidden;
     background-color: #6C7393;
-    font-size: xx-large;
   }
 .nav a{
     float: left;
@@ -64,7 +44,7 @@ h2{
     text-align: center;
     padding: 28px 30px;
     text-decoration:none;
-    font-size: 45px;
+    font-size: 25px;
 }
 .nav a:hover {
     background-color: #ddd;
@@ -74,6 +54,25 @@ h2{
     background-color: #04AA6D;
     color: white;
   }  
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  margin-bottom: 60px;
+  padding-top: 20px;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+#font{
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+}
 #hero{
     display: block;
     margin-left: auto;
@@ -82,81 +81,30 @@ h2{
     padding-bottom: 20px;
     border-radius: 100px;
 }
-/*om der er på forsiden */
-#tema1  {
-  font-size: xx-large;
-  text-align: center;
-}
 /* Tema 2 billede */
 #temacv { 
    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
-    width: 40%;
+    width: 70%;
     border-radius: 4%;
     margin-bottom: 40px;
 }
-#tema2 {
-  font-size: xx-large;
-  text-align: center;
-}
-#tema3 {
-  font-size: xx-large;
-  text-align: center;
-}
-#tema4 {
-  font-size: xx-large;
-  text-align: center;
-}
-#tema5 {
-  font-size: xx-large;
-  text-align: center;
-}
-#responsivtdesign{
-  text-align: center;
-}
-#versionsstyring{
-  text-align: center;
-}
-#css{
-  text-align: center;
-}
-#html{
-  text-align: center;
-}
-#Kommunikation{
-text-align: center;
-}
-#Tekstproduktion{
-  text-align: center;
-}
-#SoMe{
-  text-align: center;
-}
-#Metode{
-  text-align: center;
-}
-#teknikker{
-  text-align: center;
-}
-#css{
+#start{
   margin-top: 20px;
 }
-#adfærd{
-  text-align: center;
-}
-#Brugertest{
-  text-align: center;
-}
-#space{
-  margin-top: 20px;
-}
-#infoark{
-  text-align: center;
-}
-#Cascading{
+#altom{
   padding-top: 20px;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#altom2{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 #grid1{
   display: block;
@@ -166,6 +114,7 @@ text-align: center;
     padding-bottom: 20px;
     width: 40%;
 }
+/*billeder*/
 #sheet{
   display: block;
     margin-left: auto;
@@ -180,19 +129,7 @@ text-align: center;
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 20px;
-    width: 50%;
-}
-#immaterielret{
-  font-size: 25px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-#ophavsret{
-  font-size: 25px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    width: 70%;
 }
 #adaptiv{
   display: block;
@@ -200,7 +137,7 @@ text-align: center;
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 20px;
-    width: 40%;
+    width: 80%;
 }
 #responsiv{
   display: block;
@@ -208,15 +145,16 @@ text-align: center;
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 20px;
-    width: 40%;
+    width: 80%;
 }
+
 #liquid{
   display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 20px;
-    width: 40%;
+    width: 80%;
 }
 #statisk{
   display: block;
@@ -224,39 +162,21 @@ text-align: center;
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 20px;
-    width: 40%;
+    width: 80%;
 }
+/*billeder slut*/
 p{
   text-align: center;
   margin:50px;
   text-align: justify;
   text-align-last:auto;
+  font-size: 20px;
 }
-.section{
-  font-size: 25px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.semantisk{
-  font-size: 25px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.editor{
-  font-size: 25px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+
+
 li{
    margin-top:10px;
    margin-bottom:5px
-}
-p{
-  font-size: xx-large;
-  padding: 10px;
 }
 a:hover{
   text-decoration: underline;
@@ -265,39 +185,152 @@ a{
   color: white;
   text-decoration: lightgrey;
 }
+
+
+#gridcontainer{
+  display:grid;
+  margin: 1em;
+  grid-gap: 2em;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "";
+}
+
+
 @media screen and (min-width: 700px) {
+  #gridcontainer{
+    display:grid;
+    margin: 1em;
+    grid-gap: 2em;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+   "";
+}
   body {
       background-color: lightblue;
   }
   p{
-    font-size: 50px;
+    font-size: 30px;
   }
   h1{
-    font-size: 70px;
+    font-size: 40px;
+  }
+  h2{
+    font-size: 30px;
   }
   .nav a{
-    font-size: 50px;
+    font-size: 30px;
   }
   #font{
-    font-size: 80px;
+    font-size: 60px;
+    }
+    #adaptiv{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    #responsiv{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    
+    #liquid{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    #statisk{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 60%;
     }
   }
 @media screen and (min-width: 1150px) {
+    #gridcontainer{
+      display:grid;
+      margin: 1em;
+      grid-gap: 2em;
+      grid-template-columns: 2fr;
+      grid-template-rows: auto;
+      grid-template-areas:
+      "";
+  }
     body {
         background-color:#8A8FA8;
     }
     p{
-      font-size: 70px;
+      font-size: 35px;
+      border-style: ridge;
     }
     h1{
-      font-size: 80px;
+      font-size: 50px;
+    }
+    h2{
+      font-size: 30px
     }
     .nav a{
-      font-size: 60px;
+      font-size: 30px;
       margin: 7px;
     }
     #font{
-      font-size: 90px;
+      font-size: 70px;
+    }
+    #adaptiv{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    #responsiv{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    
+    #liquid{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    #statisk{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 60%;
+    }
+    #temacv{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 50%;
+    border-radius: 4%;
+    margin-bottom: 40px;
     }
   }
   
