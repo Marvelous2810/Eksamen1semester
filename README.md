@@ -18,3 +18,6 @@ Jeg har problemer med mit responsive design iforhold til nav bar.
 
 idag er stress dagen. jeg har leget med grid, men intet virker, jeg er blevet mnødsaget til at ændre alle mine id´er men glemte hvad de hed og har
 derfor brugt meget tid på at ændre navne og ændre i stylesheet.
+
+Sidder og skriver resten af mine sider færdigt, og så må jeg kæmpe med styling bagefter. Jeg går igang med min rapport når jeg har lavet hjemmesiden færdig, jeg kan 
+ikke koncentrere mig om 2 ting på en gang.

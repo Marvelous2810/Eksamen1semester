@@ -53,7 +53,26 @@ body{
 .nav a.active {
     background-color: #04AA6D;
     color: white;
-  }  
+  }
+li{
+   margin-top:10px;
+   margin-bottom:5px
+}
+p{
+  text-align: center;
+  margin:50px;
+  text-align: justify;
+  text-align-last:auto;
+  font-size: 20px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+a{
+  color: white;
+  text-decoration: lightgrey;
+}  
 h1{
   font-size: 40px;
   text-align: center;
@@ -62,9 +81,9 @@ h1{
   padding-top: 20px;
 }
 h2{
-  font-size: 30px;
-  text-align: center;
+  font-size: 25px;
   color: black;
+  padding-left: 48px;
 }
 
 #font{
@@ -81,31 +100,6 @@ h2{
     padding-bottom: 20px;
     border-radius: 100px;
 }
-/* Tema 2 billede */
-#temacv { 
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    width: 70%;
-    border-radius: 4%;
-    margin-bottom: 40px;
-}
-#start{
-  margin-top: 20px;
-}
-#altom{
-  padding-top: 20px;
-  font-size: 25px;
-  text-align: center;
-  padding-bottom: 20px;
-}
-#altom2{
-  font-size: 25px;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 20px;
-}
 #grid1{
   display: block;
     margin-left: auto;
@@ -116,15 +110,24 @@ h2{
 }
 /*billeder*/
 #sheet{
-  display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 20px;
-    width: 40%;
+    width: 60%;
+}
+#temacv { 
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 70%;
+    border-radius: 4%;
+    margin-bottom: 40px;
 }
 #første{
-  display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -132,15 +135,7 @@ h2{
     width: 70%;
 }
 #adaptiv{
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    padding-bottom: 20px;
-    width: 80%;
-}
-#responsiv{
-  display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -149,7 +144,7 @@ h2{
 }
 
 #liquid{
-  display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -157,57 +152,41 @@ h2{
     width: 80%;
 }
 #statisk{
-  display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 20px;
     width: 80%;
 }
+#aida{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 80%;
+    height:35%;
+}
+#nyhedstrekanten{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 80%;
+    height:30%;
+}
+#tema3{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 60%;
+}
 /*billeder slut*/
-p{
-  text-align: center;
-  margin:50px;
-  text-align: justify;
-  text-align-last:auto;
-  font-size: 20px;
-}
-
-
-li{
-   margin-top:10px;
-   margin-bottom:5px
-}
-a:hover{
-  text-decoration: underline;
-}
-a{
-  color: white;
-  text-decoration: lightgrey;
-}
-
-
-#gridcontainer{
-  display:grid;
-  margin: 1em;
-  grid-gap: 2em;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-  "";
-}
 
 
 @media screen and (min-width: 700px) {
-  #gridcontainer{
-    display:grid;
-    margin: 1em;
-    grid-gap: 2em;
-    grid-template-columns: 2fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-   "";
-}
   body {
       background-color: lightblue;
   }
@@ -226,59 +205,81 @@ a{
   #font{
     font-size: 60px;
     }
-    #adaptiv{
-      display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 60%;
-    }
-    #responsiv{
-      display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 60%;
-    }
-    
-    #liquid{
-      display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 60%;
-    }
-    #statisk{
-      display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 60%;
-    }
+  #adaptiv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 60%;
+  }
+  #responsiv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    Width: 60%;
+  }
+  #hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    padding-bottom: 20px;
+    Width: 60%;
+  }
+  #liquid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 60%;
+  }
+  #statisk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 60%;
+  }
+  #aida{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  padding-bottom: 20px;
+  width: 60%;
+  height: 35%;
+  }
+  #nyhedstrekanten{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 65%;
+     height: 40%;
+  }
+  #tema3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 40%;
   }
 @media screen and (min-width: 1150px) {
-    #gridcontainer{
-      display:grid;
-      margin: 1em;
-      grid-gap: 2em;
-      grid-template-columns: 2fr;
-      grid-template-rows: auto;
-      grid-template-areas:
-      "";
-  }
     body {
         background-color:#8A8FA8;
     }
     p{
-      font-size: 35px;
-      border-style: ridge;
+      font-size: 30px;
     }
     h1{
-      font-size: 50px;
+      font-size: 45px;
     }
     h2{
       font-size: 30px
@@ -286,29 +287,30 @@ a{
     .nav a{
       font-size: 30px;
       margin: 7px;
-    }
+    }  
     #font{
       font-size: 70px;
+      writing-mode: vertical-rl;
+      font-family:fantasy
     }
     #adaptiv{
-      display: block;
+        display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 1em;
         padding-bottom: 20px;
         width: 60%;
     }
-    #responsiv{
+    #sheet{
       display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1em;
+      padding-bottom: 20px;
+      width: 50%;
     }
-    
     #liquid{
-      display: block;
+        display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 1em;
@@ -316,21 +318,56 @@ a{
         width: 60%;
     }
     #statisk{
-      display: block;
+        display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 1em;
         padding-bottom: 20px;
         width: 60%;
     }
+    #grid1{
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 40%;
+    }
+    #aida{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        padding-bottom: 20px;
+        width: 40%;
+        height: 35%;
+    }
     #temacv{
       display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    width: 50%;
-    border-radius: 4%;
-    margin-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1em;
+      width: 50%;
+      border-radius: 4%;
+      margin-bottom: 40px;
+      }
+    #nyhedstrekanten{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        width: 35%;
+        height: 40%;
+    }
+    #tema3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+        width: 30%;
+    }
+    a:link{
+      text-decoration:underline;
     }
   }
-  
+}
