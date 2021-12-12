@@ -272,102 +272,129 @@ h2{
     width: 40%;
   }
 @media screen and (min-width: 1150px) {
-    body {
-        background-color:#8A8FA8;
-    }
-    p{
-      font-size: 30px;
-    }
-    h1{
-      font-size: 45px;
-    }
-    h2{
-      font-size: 30px
-    }
-    .nav a{
-      font-size: 30px;
-      margin: 7px;
-    }  
-    #font{
-      font-size: 70px;
-      writing-mode: vertical-rl;
-      font-family:fantasy
-    }
-    #adaptiv{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 60%;
-    }
-    #sheet{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 1em;
-      padding-bottom: 20px;
-      width: 50%;
-    }
-    #liquid{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 60%;
-    }
-    #statisk{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 60%;
-    }
-    #grid1{
-      display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 40%;
-    }
-    #aida{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        padding-bottom: 20px;
-        width: 40%;
-        height: 35%;
-    }
-    #temacv{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 1em;
-      width: 50%;
-      border-radius: 4%;
-      margin-bottom: 40px;
-      }
-    #nyhedstrekanten{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        width: 35%;
-        height: 40%;
-    }
-    #tema3{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1em;
-        width: 30%;
-    }
-    a:link{
-      text-decoration:underline;
-    }
+  body {
+      background-color:#8A8FA8;
+  }
+  p{
+    font-size: 30px;
+  }
+  h1{
+    font-size: 45px;
+  }
+  h2{
+    font-size: 30px
+  }
+  .nav a{
+    font-size: 30px;
+    margin: 7px;
+  }
+  .imk2{
+    font-size: 30px;
+    padding-left: 85px;
+  }
+  #font{
+    font-size: 70px;
+    writing-mode: vertical-rl;
+    font-family:fantasy
+  }
+  #adaptiv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 60%;
+  }
+  #sheet{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 50%;
+  }
+  #liquid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 60%;
+  }
+  #kvankval{
+    display: block;     
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 40%;
+  }
+  #statisk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+  }
+  #grid1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 40%;
+  }
+  #aida{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 20px;
+    width: 40%;
+    height: 35%;
+  }
+  #temacv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 50%;
+    border-radius: 4%;
+    margin-bottom: 40px;
+  }
+  #nyhedstrekanten{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 35%;
+    height: 40%;
+  }
+  #tema3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 30%;
+  }
+  #imk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 10em;
+    width: 30%;
+  }
+  #SoMekanaler{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding-bottom: 3em;
+    width: 30%;
+  }
+  a:link{
+    text-decoration:underline;
+  }
   }
 }

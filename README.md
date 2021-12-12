@@ -21,3 +21,5 @@ derfor brugt meget tid på at ændre navne og ændre i stylesheet.
 
 Sidder og skriver resten af mine sider færdigt, og så må jeg kæmpe med styling bagefter. Jeg går igang med min rapport når jeg har lavet hjemmesiden færdig, jeg kan 
 ikke koncentrere mig om 2 ting på en gang.
+
+Jeg går idag igang med de sidste sider til min portfolio, og så håber jeg på at Niels, kan hjælpe mig med at kigge på mit grid imorgen Mandag da vi har møde kl 09:30.
