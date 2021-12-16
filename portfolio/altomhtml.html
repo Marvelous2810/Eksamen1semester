@@ -8,54 +8,58 @@
     <link rel="stylesheet" href="endstylesheet.css">
 </head>
 <body>
-    <nav>
-        <ul class="nav">
-            <li><a href="index.html">Forside</a></li>
-                <li><a href="temaerforside.html">Temaer</a></li>
-                <li><a href="kodningforside.html">Kodning</a></li>
-                <li><a href="kommunikationforside.html">Kommunikation </a></li>
-                <li><a href="designforside.html">Design </a></li>       
-        </ul>
-    </nav> 
-    <section id="gridcontainer">
-            <section id="start"> <!-- HyperText Markup Language start-->
-                <h1>HyperText Markup Language</h1>
-                        <p>Html var det oprindelige kodesprog.</p>
-                        <p>Html er det der er strukturen for en hjemmeside, hvor Css er til at designe.</p>
-                        <p>Dog startede html med at både være strukturen og designet, det var begrænset og forskelligt fra browser til browser.</p>
-                        <p>"head" er metainformation om siden, der ikke vises på siden.</p>
-                        <p>"body" er selve sidens indhold.</p>
-                        <p>"h1" og "/h1" afgrænser et html element.</p>
-                        <p>Opbygning for et HTML element er således at du starter med dit "start tag" som kan være h1, img eller noget tredje. <br>
-                            Efterfulgt af en attribut navn som kan være id, class osv. Herefter kommer din valgte tekst også kaldet "value" <br>
-                            Herefter kommer dit slut tag som du også startede med.</p>
-                        <p>Indrykning af kode i din editor er god kodeskik, det giver et større indblik for dig selv og andre der skal læse din kode.</p>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Forside</a></li>
+                    <li><a href="temaerforside.html">Temaer</a></li>
+                    <li><a href="kodningforside.html">Kodning</a></li>
+                    <li><a href="kommunikationforside.html">Kommunikation </a></li>
+                    <li><a href="designforside.html">Design </a></li>       
+            </ul>
+        </nav>
+    </header> 
+    <div id="gridcontainer">
+        <section id="start"> <!-- HyperText Markup Language start-->
+            <h1>HyperText Markup Language</h1>
+                <p>Html var det oprindelige kodesprog.</p>
+                <p>Html er det der er strukturen for en hjemmeside, hvor Css er til at designe.</p>
+                <p>Dog startede html med at både være strukturen og designet, det var begrænset og forskelligt fra browser til browser.</p>
+                <p>"head" er metainformation om siden, der ikke vises på siden. <br>
+                    "body" er selve sidens indhold. <br>
+                    "h1" og "/h1" afgrænser et html element.</p>
+                <p>Opbygning for et HTML element er således at du starter med dit "start tag" som kan være h1, img eller noget tredje. <br>
+                    Efterfulgt af en attribut navn som kan være id, class osv. Herefter kommer din valgte tekst også kaldet "value" <br>
+                    Herefter kommer dit slut tag som du også startede med.</p>
+                <p>Indrykning af kode i din editor er god kodeskik, det giver et større indblik for dig selv og andre der skal læse din kode.</p>
+                <p>Inden man begynder at kode er det en god ide at lave wireframes over hvad for nogle div´er og sektions du vil have med, <br>
+                    og under hvad de sektions skal være. Alting skal have et navn, da det gør det nemmere når du kommer til gridsystem.</p>
             </section> <!-- HyperText Markup Language Slut-->
             <section id="altom"> <!-- Semantiske tags start-->
                 <h1> Semantiske tags</h1>
-                        <p>Header svarer til et sidehovede i et word dokument.</p>
-                        <p>Der kan være flere headere på en side, men så er det opdelt i hver sin "section".</p>
-                        <p>Footer er også et semantisk tag og minder om header, men er istedet mere en sidefod. I footer har man som regel copyright og kontakt informationer.</p>
+                    <p>Header svarer til et sidehovede i et word dokument.</p>
+                    <p>Der kan være flere headere på en side, men så er det opdelt i hver sin "section".</p>
+                    <p>Footer er også et semantisk tag og minder om header, men er istedet mere en sidefod. I footer har man som regel copyright og kontakt informationer.</p>
             </section> <!-- Semantiske tags slut-->
             <section id="altom2"> <!-- Editor start -->
                 <h1>Editor</h1>
-                        <p>En editor er et program med ren tekst uden formatering af nogen art.</p>
-                        <p>Jeg anvender microsoft visual studio code da det er gratis og let tilgængeligt.</p>
-                        <p>Der findes mange andre alternativer.</p>
+                    <p>En editor er et program med ren tekst uden formatering af nogen art.</p>
+                    <p>Jeg anvender microsoft visual studio code da det er gratis og let tilgængeligt.</p>
+                    <p>Der findes mange andre alternativer.</p>
             </section> <!-- Editor slut -->
             <section id="altom3"> <!-- sektioner start-->
                 <h1>Sections</h1>
-                        <p>Dette "tag" fortæller at alt der er imellem høre sammen og har dermed betydningen (se4mantisk).</p>
-                        <p>Der kan være flere headers på en side, typisk i hver sin section.</p>
-                        <p>Article og Aside minder meget om section.</p>
+                    <p>Dette "tag" fortæller at alt der er imellem høre sammen og har dermed betydningen (semantisk).</p>
+                    <p>Der kan være flere headers på en side, typisk i hver sin section.</p>
+                    <p>Article og Aside minder meget om section.</p>
             </section> <!-- sektioner slut -->
             <section id="altom4"> <!-- Min første html side-->
                 <h1> Min første html side</h1>
-                        <p>Min første html side omhandlede mit cv vi skulle lave.</p>
-                        <p>Der kom smæk på farverne hvor farve koden til den oprindelige røde farve i dania logoet blev brugt til baggrund.</p>
-                        <p>Der var mange problemer med at få det hele lagt over på serveren, men efter en grundig snak med Niels, kom der styr på det.</p>
-            <img id="første"src="førstekodning.jpg" alt="første"> <!-- Her er et billede der viser min første kodning start -->  
+                    <p>Min første html side omhandlede mit cv vi skulle lave.</p>
+                    <p>Der kom smæk på farverne hvor farve koden til den oprindelige røde farve i dania logoet blev brugt til baggrund.</p>
+                    <p>Der var mange problemer med at få det hele lagt over på serveren, men efter en grundig snak med Niels, kom der styr på det.</p>
+                <img id="første"src="førstekodning.jpg" alt="første"> <!-- Her er et billede der viser min første kodning start -->  
             </section> <!-- Min første html side slut-->
-    </section> <!-- grid slut-->
+        </div> <!-- grid slut-->
 </body>
 </html>

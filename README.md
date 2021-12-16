@@ -23,3 +23,8 @@ Sidder og skriver resten af mine sider færdigt, og så må jeg kæmpe med styli
 ikke koncentrere mig om 2 ting på en gang.
 
 Jeg går idag igang med de sidste sider til min portfolio, og så håber jeg på at Niels, kan hjælpe mig med at kigge på mit grid imorgen Mandag da vi har møde kl 09:30.
+
+Har lige snakket med Niels, omkring skolen og opgaven. Det gik godt, og jeg fik noget ud af det. nu går jeg igang med den sidste side af hjemmesiden
+og så begynder jeg på rapporten.
+
+Hjemmesiden er så godt som færdig, jeg har mit ønskede grid, og mangler få linjer til at jeg syntes jeg har nok på hjemmsiden.
