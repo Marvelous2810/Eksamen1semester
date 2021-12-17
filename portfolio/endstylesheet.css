@@ -67,7 +67,8 @@ li{
 }
 p{
   text-align: center;
-  margin:70px;
+  margin:40px;
+  padding-bottom: 30px;
   text-align: justify;
   text-align-last:auto;
   font-size: 20px;
@@ -125,21 +126,33 @@ h3{
 }
 #start{
   grid-area: start;
+  background-color: #6C7393 ;
+  margin: 1em;
 }
 #altom{
   grid-area: altom;
+  background-color: #6C7393 ;
+  margin: 1em;
 }
 #altom2{
   grid-area: altom2;
+  background-color: #6C7393 ;
+  margin: 1em;
 }
 #altom3{
   grid-area: altom3;
+  background-color: #6C7393 ;
+  margin: 1em;
 }
 #altom4{
   grid-area: altom4;
+  background-color: #6C7393 ;
+  margin: 1em;
 }
 #altom5{
   grid-area: altom5;
+  background-color: #6C7393 ;
+  margin: 1em;
 }
 #farver{
   display: block;
@@ -335,6 +348,19 @@ h3{
     width: 60%;
 }
 /*billeder slut*/
+footer {
+  background-color: #6C7393;
+  color: white;
+  padding-bottom: 1px;
+  padding-top: .1em;
+}
+.footertekst {
+font-size: 15px;
+padding-bottom: .7px;
+}
+#facilitatorer {
+font-size: 20px;
+}
 
 
 
@@ -772,4 +798,18 @@ h3{
     text-decoration:underline;
   }
   }
+  footer {
+      background-color: #6C7393;
+      color: white;
+      padding-bottom: 1px;
+      padding-top: .1em;
+      margin: 1em;
+  }
+  .footertekst {
+    font-size: 20px;
+    padding-bottom: .1px;
+  }
+  #facilitatorer {
+  font-size: 25px;
+}
 }

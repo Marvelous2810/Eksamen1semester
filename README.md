@@ -29,3 +29,5 @@ og så begynder jeg på rapporten.
 
 Hjemmesiden er så godt som færdig, jeg har mit ønskede grid, og mangler få linjer til at jeg syntes jeg har nok på hjemmsiden.
 Lige nu sker der rettelser på hjemmesiden, der rettes for kommaer og punktum, store og små bogstaver og fyldes mere tekst på.
+
+Jeg er begyndt på analysen nu
