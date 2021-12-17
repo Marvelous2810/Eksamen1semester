@@ -102,7 +102,8 @@ h3{
   margin-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
+  font-family: fantasy;
 }
 
 /*billeder*/
@@ -338,6 +339,13 @@ h3{
 
 
 @media screen and (min-width: 700px) {
+  #grid{
+    display:grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "font hero";
+  }
   body {
       background-color: lightblue;
   }
@@ -363,9 +371,6 @@ h3{
     padding-left: 85px;
     padding-bottom: 20px;
   }
-  #font{
-    font-size: 60px;
-    }
   #adaptiv{
     display: block;
     margin-left: auto;
@@ -394,7 +399,7 @@ h3{
     margin-right: auto;
     margin-top: 2.5em;
     padding-bottom: 20px;
-    Width: 60%;
+    Width: 90%;
   }
   #illu{
     display: block;
@@ -529,12 +534,19 @@ h3{
   #gridcontainer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "start start start start"
     "altom altom altom2 altom2"
     "altom3 altom3 altom4 altom4"
    ;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "font hero";
   }
   body {
     background-color:#8A8FA8;
@@ -622,8 +634,8 @@ h3{
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 20px;
-    width: 40%;
-    height: 35%;
+    width: 60%;
+    height: 25%;
   }
   #temacv{
     display: block;
@@ -648,14 +660,14 @@ h3{
     margin-right: auto;
     margin-top: 1em;
     width: 35%;
-    height: 40%;
+    height: 20%;
   }
   #tema3{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
-    width: 30%;
+    width: 50%;
   }
   #imk{
     display: block;
@@ -663,7 +675,7 @@ h3{
     margin-right: auto;
     margin-top: 1em;
     padding-bottom: 10em;
-    width: 30%;
+    width: 50%;
   }
   #fisken{
     display: block;
