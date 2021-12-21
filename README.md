@@ -32,3 +32,5 @@ Lige nu sker der rettelser på hjemmesiden, der rettes for kommaer og punktum, s
 
 Jeg er begyndt på analysen nu.
 Jeg har skrevet lidt mere idag, er oppe på 4 sider, har liiidt travlt, men jeg skal nok kunne nå det. jeg læser rigtig meget på gamle powerpoints.
+
+Jeg er næsten færdig med min rapport nu, nu handler det om rettelser og tilføjelser.
